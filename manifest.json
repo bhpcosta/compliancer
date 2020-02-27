@@ -3,17 +3,17 @@
   "name": "Compliancer",
   "icons": [
     {
-      "src": "/ISO27K/img/icon-192-192.png",
+      "src": "img/icon-192-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/ISO27K/img/icon-512-512.png",
+      "src": "img/icon-512-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/ISO27K/index.html",
+  "start_url": "index.html",
   "background_color": "#ffffff",
   "display": "fullscreen",
   "orientation": "portrait",
