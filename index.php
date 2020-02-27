@@ -5,6 +5,8 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icon_fav.png"/>
 	<link rel="manifest" href="manifest.json" />
+	<link rel="pwabuilder-sw-register" href="pwabuilder-sw-register.js" />
+	<link rel="pwabuilder-sw-register" href="pwabuilder-sw.js" />
 	<link rel="manifest" href="/manifest.json">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,7 +18,9 @@
 	<!--- Video BackGroung ----->
 	<link rel="stylesheet" href="master.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="jquery.vide.js"></script>
+   	<script src="jquery.vide.js"></script>
+	<script src="pwabuilder-sw-register.js"></script>
+	<script src="pwabuilder-sw.js"></script>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
