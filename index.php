@@ -5,8 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icon_fav.png"/>
 	<link rel="manifest" href="manifest.json" />
-	<link rel="pwabuilder-sw-register" href="pwabuilder-sw-register.js" />
-	<link rel="pwabuilder-sw-register" href="pwabuilder-sw.js" />
+	<link rel="pwabuilder-sw" href="pwabuilder-sw.js" />
 	<link rel="manifest" href="/manifest.json">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +19,22 @@
 	<link rel="stylesheet" href="master.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
    	<script src="jquery.vide.js"></script>
-	<script src="pwabuilder-sw-register.js"></script>
+	<script>
+	if ("serviceWorker" in navigator) {
+	  if (navigator.serviceWorker.controller) {
+	    console.log("[PWA Builder] active service worker found, no need to register");
+	  } else {
+	    // Register the service worker
+	    navigator.serviceWorker
+	      .register("pwabuilder-sw.js", {
+		scope: "./"
+	      })
+	      .then(function (reg) {
+		console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+	      });
+	  }
+	}
+	</script>
 	<script src="pwabuilder-sw.js"></script>
 
 	<!-- Google font -->
