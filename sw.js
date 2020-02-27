@@ -1,11 +1,19 @@
-if ('serviceWorker' in navigator) {
-    console.log('ServiceWorker é suportado, vamos usar!');
-  } else {
-    console.log('ServiceWorker não é suportado.');
-  }
+// This is the "Offline page" service worker
 
-if ('serviceWorker' in navigator) {
-   navigator.serviceWorker.register('sw.js')
-     .then(reg => console.info('registered sw', reg))
-     .catch(err => console.error('error registering sw', err));
- }
+// Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+// Check compatibility for the browser we're running this in
+if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
