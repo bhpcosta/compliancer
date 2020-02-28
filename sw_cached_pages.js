@@ -1,9 +1,20 @@
 const cacheName = 'v1';
 
 const cacheAssets = [
-  'index.php',
-  'master.css',
-  '/img',
+  './index.php',
+  './master.css',
+  './css/bootstrap.min.css',
+  './css/font-awesome.min.css',
+  './css/magnific-popup.css',
+  './css/owl.carousel.css',
+  './css/owl.theme.default.css',
+  './css/style.css',
+  './fonts/FontAwesome.otf',
+  './fonts/fontawesome-webfont.eot',
+  './fonts/fontawesome-webfont.svg',
+  './fonts/fontawesome-webfont.ttf',
+  './fonts/fontawesome-webfont.woff',
+  './fonts/fontawesome-webfont.woff2',
   '/js/main.js'
 ];
 
