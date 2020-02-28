@@ -7,7 +7,6 @@ const cacheAssets = [
   './icon-512-512.png',
   './manifest.json',
   './package-lock.json',
-  './sw.js',
   './sw_cached_pages.js',
   './webpack.config.js',  
   './master.css',
