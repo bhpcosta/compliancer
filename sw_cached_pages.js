@@ -66,7 +66,6 @@ const cacheAssets = [
   './js/jquery.magnific-popup.js'
   './js/jquery.jquery.min.js'
   './js/owl.carousel.min.js'
-  './js/sw.js'
   './js/main.js'
 ];
 
