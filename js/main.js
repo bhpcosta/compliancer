@@ -1,17 +1,9 @@
-const isPWA = window.matchMedia('(display-mode: standalone)');
-const pwaMenu = document.querySelector('.pwaMenu');
-
-if (('share' in navigator || isPWA.matches) && pwaMenu) {
-  pwaMenu.style.display = 'flex';
-}
-
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('sw.js', { scope: '/' }).then((registration) => {
-      console.log('SW registered: ', registration);
-    }).catch((registrationError) => {
-      console.log('SW registration failed: ', registrationError);
-    });
+    navigator.serviceWorker
+      .register('../sw_cached_pages.js')
+      .then(reg => console.log('Service Worker: Registered (Pages)'))
+      .catch(err => console.log(`Service Worker: Error: ${err}`));
   });
 }
 (function($) {
