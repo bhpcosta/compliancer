@@ -8,7 +8,7 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   entry: {
-    main: './src/index.js',
+    main: 'index.php',
   },
   output: {
     filename: '[name].js',
@@ -65,7 +65,7 @@ module.exports = {
   plugins: [
     new StyleLintPlugin(),
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      filename: 'index.php',
       title: 'Lorem Ipsum Front-end Engineer',
       template: './src/index.html',
       favicon: false,
