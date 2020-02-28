@@ -50,7 +50,7 @@ const cacheAssets = [
   '/images/icons/icon-512x512.png',
   '/images/icons/icon-72x72.png',
   '/images/icons/icon-96x96.png',
-  './css/style.css',
+  '/css/style.css',
 ];
 
 // Call Install Event
