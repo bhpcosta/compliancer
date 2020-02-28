@@ -15,7 +15,7 @@ const cacheAssets = [
   '/img/about2.jpg',
   '/img/about3.jpg',
   '/img/about4.jpg',
-    '/img/author.jpg',
+  '/img/author.jpg',
   '/img/background2.jpg',
   '/img/background3.jpg',
   '/img/background3_.jpg',
@@ -41,6 +41,7 @@ const cacheAssets = [
   '/img/work4.JPG',
   '/img/work5.JPG',
   '/img/work6.JPG',
+  '/js/main.js',
 ];
 
 // Call Install Event
