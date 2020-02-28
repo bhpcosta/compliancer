@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icon_fav.png"/>
 	<link rel="manifest" href="manifest.json">
+	<link rel="apple-touch-icon" href="img/icon-192-192.png">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
