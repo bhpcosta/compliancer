@@ -10,12 +10,12 @@ const cacheAssets = [
   '/sw_cached_pages.js',
   '/webpack.config.js',  
   '/master.css',
-  '../js/main.js',
-  '../js/bootstrap.min.js',
-  '../js/jquery.magnific-popup.js',
-  '../js/jquery.jquery.min.js',
-  '../js/owl.carousel.min.js',
-  '../js/main.js',
+  '/img/Integridade.jpg',
+  '/img/about1.jpg',
+  '/img/about2.jpg',
+  '/img/about3.jpg',
+  '/img/about4.jpg',
+
 ];
 
 // Call Install Event
