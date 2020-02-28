@@ -248,14 +248,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work1.jpg" alt="">
+					<img class="img-responsive" src="./img/work1.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Painel de Controle</span>
 						<h3>Resumo de informações</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work1.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -263,14 +263,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work2.jpg" alt="">
+					<img class="img-responsive" src="./img/work2.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Conformidade</span>
 						<h3>Checklist de conformidade</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work2.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -278,7 +278,7 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work3.jpg" alt="">
+					<img class="img-responsive" src="./img/work3.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Recursos Humanos</span>
@@ -293,14 +293,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work4.jpg" alt="">
+					<img class="img-responsive" src="./img/work4.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Controle de Ativos</span>
 						<h3>Cadastro de Ativos</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work4.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -308,14 +308,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work5.jpg" alt="">
+					<img class="img-responsive" src="./img/work5.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Auditorias</span>
 						<h3>Agendamento de Auditoria</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work5.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -323,14 +323,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work6.jpg" alt="">
+					<img class="img-responsive" src="./img/work6.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Calendário</span>
 						<h3>eventos, notificações, avisos</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work6.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -583,7 +583,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/integridade.jpg" alt="">
+								<img src="./img/Integridade.jpg" alt="">
 								<h3 class="white-text">Integridade</h3>
 								<span>Entenda</span>
 							</div>
