@@ -286,7 +286,7 @@
 						<h3>Obrigações contratuais</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work3.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
