@@ -584,7 +584,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/Integridade.jpg" alt="">
+								<img src="./img/Integridade.png" alt="">
 								<h3 class="white-text">Integridade</h3>
 								<span>Entenda</span>
 							</div>
@@ -595,7 +595,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/legalidade.jpg" alt="">
+								<img src="./img/legalidade.png" alt="">
 								<h3 class="white-text">Legaliade</h3>
 								<span>Entenda</span>
 							</div>
@@ -606,7 +606,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="./img/disponibilidade.jpg" alt="">
+								<img src="./img/disponibilidade.png" alt="">
 								<h3 class="white-text">Disponibilidade</h3>
 								<span>Entenda</span>
 							</div>
