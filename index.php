@@ -78,9 +78,9 @@
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">Facilidades</a></li>
-					<li><a href="#portfolio">Produtos</a></li>
 					<li><a href="#service">Serviços</a></li>
+					<li><a href="#portfolio">Produtos</a></li>
+					<li><a href="#facilidades">Facilidades</a></li>	
 					<!--<li><a href="#pricing">Preços</a></li>-->
 					<li><a href="#team">Time</a></li>
 					<li><a href="#contact">Contatos</a></li>
@@ -155,6 +155,8 @@
 	      		<p class="white-text">Está preparado?</p>
 	      		<p class="white-text">A <a href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm" target="_blank">Lei nº 13.709/2018</a>, conhecida como Lei Geral de Proteção de Dados (“LGPD”) passará a ser aplicável em agosto de 2020. Ela traz mudanças profundas nas condições para o tratamento de dados pessoais, o que inclui atividades como coleta, armazenamento, utilização, compartilhamento e eliminação de informações relacionadas a pessoas naturais identificadas ou identificáveis. </p>
 					</div>
+				<button class="btn btn-primary" href="#contact">Solicitar demonstração</button>
+				<button class="btn btn-success" href="#contact">Teste Gratuito</button>
 					</home>
 
 				</div>
@@ -174,8 +176,8 @@
 
 	<!-- /Header -->
 
-	<!-- About -->
-	<div id="about" class="section md-padding">
+	<!-- Service -->
+	<div id="service" class="section md-padding">
 
 		<!-- Container -->
 		<div class="container">
@@ -185,42 +187,69 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Facilidades</h2>
+					<h2 class="title">Principais Serviços</h2>
 				</div>
 				<!-- /Section header -->
 
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>Adaptável</h3>
-						<p>Nosso sistema consegue se adaptar a qualquer ambiente de implantação.</p>
-						<a href="#">Leia mais</a>
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-globe"></i>
+						<h3>Inventário e mapeamento de dados</h3>
+						<p>Mapeie categorias de titulares de dados, processos de negócios, ativos, finalidades, bases legais, transferências de países terceiros e muito mais.</p>
 					</div>
 				</div>
-				<!-- /about -->
+				<!-- /service -->
 
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-magic"></i>
-						<h3>Descomplicado</h3>
-						<p>O sistema sistema busca ser objetivo e completo sem complexibilidade.</p>
-						<a href="#">Leia mais</a>
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-exclamation-triangle"></i>
+						<h3>Resposta a incidentes e violações</h3>
+						<p>Em caso de violação ou incidente de dados, nosso Gerente de Incidentes o orienta na coleta das informações corretas para avaliar riscos e impactos.</p>
 					</div>
 				</div>
-				<!-- /about -->
+				<!-- /service -->
 
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-mobile"></i>
-						<h3>Compatibilidade Mobile</h3>
-						<p>O gerenciamento de segurança pode estar na palma de sua mão.</p>
-						<a href="#">Leia mais</a>
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-exclamation-circle"></i>
+						<h3>Gerenciamento dos riscos dos fornecedores</h3>
+						<p>Assuma o controle de seus relacionamentos com terceiros. Gerencie os riscos relacionados aos seus fornecedores e outras partes externas.</p>
 					</div>
 				</div>
-				<!-- /about -->
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-balance-scale"></i>
+						<h3>Checklist de conformidade</h3>
+						<p>Modelos atualizados de Avaliação de Impacto de Privacidade (AIP) específicos à LGPD.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-shield"></i>
+						<h3>Gerenciamento de Ativos</h3>
+						<p>Define os processos que controlam e revisam a gestão de segurança da informação.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-line-chart"></i>
+						<h3>Gerenciamento de Melhorias</h3>
+						<p>Ajuda na criação de escopo para delegar melhorias e obter aumento na qualidade</p>
+					</div>
+				</div>
+				<!-- /service -->
 
 			</div>
 			<!-- /Row -->
@@ -229,7 +258,7 @@
 		<!-- /Container -->
 
 	</div>
-	<!-- /About -->
+	<!-- /Service -->
 
 
 	<!-- Portfolio -->
@@ -282,8 +311,8 @@
 					<img class="img-responsive" src="./img/work3.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
-						<span>Recursos Humanos</span>
-						<h3>Obrigações contratuais</h3>
+						<span>Mapa de Ativos</span>
+						<h3>Controle de fornecedores</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
 							<a class="lightbox" href="./img/work3.JPG"><i class="fa fa-search"></i></a>
@@ -346,8 +375,8 @@
 	</div>
 	<!-- /Portfolio -->
 
-	<!-- Service -->
-	<div id="service" class="section md-padding">
+	<!-- About -->
+	<div id="facilidades" class="section md-padding">
 
 		<!-- Container -->
 		<div class="container">
@@ -357,69 +386,42 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Principais Serviços</h2>
+					<h2 class="title">Facilidades</h2>
 				</div>
 				<!-- /Section header -->
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-calendar-plus-o"></i>
-						<h3>Controle de Incidentes</h3>
-						<p>Controla os incidentes de maneira mais rápida, objetiva, consciente e precisa.</p>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Adaptável</h3>
+						<p>Nosso sistema consegue se adaptar a qualquer ambiente de implantação.</p>
+						<a href="#">Leia mais</a>
 					</div>
 				</div>
-				<!-- /service -->
+				<!-- /about -->
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-briefcase"></i>
-						<h3>Auditorias</h3>
-						<p>Audita o grau de conformidade com políticas, diretrizes, normas e procedimentos.</p>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>Descomplicado</h3>
+						<p>O sistema sistema busca ser objetivo e completo sem complexibilidade.</p>
+						<a href="#">Leia mais</a>
 					</div>
 				</div>
-				<!-- /service -->
+				<!-- /about -->
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-balance-scale"></i>
-						<h3>Conformidade ISO</h3>
-						<p>Garante conformidade com leis e regulamentos voltados a lei geral de proteção de dados.</p>
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>Compatibilidade Mobile</h3>
+						<p>O gerenciamento de segurança pode estar na palma de sua mão.</p>
+						<a href="#">Leia mais</a>
 					</div>
 				</div>
-				<!-- /service -->
-
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-exclamation-triangle"></i>
-						<h3>Gestão de Riscos</h3>
-						<p>Aprimora o reconhecimento de riscos e auxilia na posterior correção do mesmo.</p>
-					</div>
-				</div>
-				<!-- /service -->
-
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-shield"></i>
-						<h3>Controle de Ativos</h3>
-						<p>Define os processos que controlam e revisam a gestão de segurança da informação.</p>
-					</div>
-				</div>
-				<!-- /service -->
-
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-line-chart"></i>
-						<h3>Gestão de Melhorias</h3>
-						<p>Ajuda na criação de escopo para delegar melhorias e obter aumento na qualidade</p>
-					</div>
-				</div>
-				<!-- /service -->
+				<!-- /about -->
 
 			</div>
 			<!-- /Row -->
@@ -428,8 +430,7 @@
 		<!-- /Container -->
 
 	</div>
-	<!-- /Service -->
-
+	<!-- /About -->
 
 	<!-- Why Choose Us -->
 	<div id="features" class="section md-padding bg-grey">
@@ -445,7 +446,7 @@
 					<div class="section-header">
 						<h2 class="title">Por que nos escolher?</h2>
 					</div>
-					<p>O Compliancer nasceu com o viés de ser um sistema capaz de ajudar na gestão de todo o processo de implantação da ISO bem como ajudar a manter toda a gestão em funcionamento contínuo, com intuito de melhorar cada vez mais a segurança da informação.</p>
+					<p>O Compliancer nasceu com o viés de ser um sistema capaz de ajudar na gestão de todo o processo de implantação da LGPD bem como ajudar a manter toda a gestão em funcionamento contínuo, com intuito de melhorar cada vez mais a segurança da informação.</p>
 					<div class="feature">
 						<i class="fa fa-check"></i>
 						<p>Apoio para tomada de decisões</p>
