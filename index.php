@@ -844,7 +844,7 @@
 	<script type="text/javascript" src="js/main.js"></script>
 	<script>
 
-		var target_date = new Date("august 8, 2020").getTime();
+		var target_date = new Date("may 2, 2021").getTime();
 		var dias, horas, minutos, segundos;
 		var regressiva = document.getElementById("regressiva");
 
