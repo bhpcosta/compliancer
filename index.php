@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="pt-br">
 
 <head>
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-	<link rel = "shortcut icon" type = "imagem/x-icon" href = "{{ asset('assets/img/brand/icon_fav.png')}}"/>
-	<link rel="manifest" href="{{ asset('assets/manifest.json')}}">
-	<link rel="apple-touch-icon" href="{{ asset('assets/icons/icon-192-192.png')}}">
+	<link rel = "shortcut icon" type = "imagem/x-icon" href = "img/icon_fav.png"/>
+	<link rel="manifest" href="manifest.json">
+	<link rel="apple-touch-icon" href="icons/icon-192-192.png">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,26 +15,26 @@
 	<title>Home | Compliancer</title>
 
 	<!--- Video BackGroung ----->
-	<link rel="stylesheet" href="{{ asset('assets/master.css')}}">
+	<link rel="stylesheet" href="master.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-	<script src="{{ asset('/assets/jquery.vide.js')}}"></script>
+	<script src="jquery.vide.js"></script>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 	<!-- Bootstrap -->
-	<link type="text/css" rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css')}}" />
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 	<!-- Owl Carousel -->
-	<link type="text/css" rel="stylesheet" href="{{ asset('assets/css/owl.carousel.css')}}" />
-	<link type="text/css" rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.css')}}" />
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
 	<!-- Magnific Popup -->
-	<link type="text/css" rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css')}}" />
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
 	<!-- Font Awesome Icon -->
-	<link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css')}}">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="{{ asset('assets/css/style.css')}}" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -182,7 +182,7 @@
 	<!-- Header -->
 	<header id="home">
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('{{ asset('assets/img/theme/fundo.jpg')}}');">
+		<div class="bg-img" style="background-image: url('img/fundo.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -194,9 +194,9 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a href="{{ asset('index.php')}}">
-							<img class="logo" src="{{ asset('assets/img/brand/logo.png')}}" alt="logo">
-							<img class="logo-alt" src="{{ asset('assets/img/brand/logo-alt.png')}}" alt="logo">
+						<a href="index.php">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
 						</a>
 					</div>
 					<!-- /Logo -->
@@ -233,16 +233,16 @@
 					<!--
 					<div class="col-md-8"></div>
 
-					<li class="has-dropdown"><a> <img align="center" src="{{ asset('assets/./img/theme/img-br.jpg')}}"> Português </a>
+					<li class="has-dropdown"><a> <img align="center" src="./img/img-br.jpg"> Português </a>
 						<ul class="dropdown">
-							<li><a href="Sistema_Web/Login.php"><img align="center" src="{{ asset('assets/./img/theme/img-us.jpg')}}"> Engish </a>
-							<li><a href="Sistema_Web/Login.php"><img align="center" src="{{ asset('assets/./img/theme/img-es.jpg')}}"> Español </a>
+							<li><a href="Sistema_Web/Login.php"><img align="center" src="./img/img-us.jpg"> Engish </a>
+							<li><a href="Sistema_Web/Login.php"><img align="center" src="./img/img-es.jpg"> Español </a>
 						</ul>
 					</li>
 					-->
 					<!--
-						<li><a class="navbar-right" href=""><img src="{{ asset('assets/./img/theme/img-us.jpg')}}"></a></li>
-						<li><a class="navbar-right" href=""><img src="{{ asset('assets/./img/theme/img-es.jpg')}}"></a></li>
+						<li><a class="navbar-right" href=""><img src="./img/img-us.jpg"></a></li>
+						<li><a class="navbar-right" href=""><img src="./img/img-es.jpg"></a></li>
 					-->
 				</ul>
 				<!-- /Main navigation -->
@@ -435,14 +435,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="{{ asset('assets/./img/theme/work1.JPG')}}" alt="">
+					<img class="img-responsive" src="./img/work1.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Painel de Controle</span>
 						<h3>Resumo de informações</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="{{ asset('assets/./img/theme/work1.JPG')}}"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work1.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -450,14 +450,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="{{ asset('assets/./img/theme/work2.JPG')}}" alt="">
+					<img class="img-responsive" src="./img/work2.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Conformidade</span>
 						<h3>Checklist de conformidade</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="{{ asset('assets/./img/theme/work2.JPG')}}"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work2.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -465,14 +465,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="{{ asset('assets/./img/theme/work3.JPG')}}" alt="">
+					<img class="img-responsive" src="./img/work3.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Mapa de Ativos</span>
 						<h3>Visualize seus ativos</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="{{ asset('assets/./img/theme/work3.JPG')}}"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work3.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -480,14 +480,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="{{ asset('assets/./img/theme/work4.JPG')}}" alt="">
+					<img class="img-responsive" src="./img/work4.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Relatórios</span>
 						<h3>CSV, Excel, PDF e outros...</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="{{ asset('assets/./img/theme/work4.JPG')}}"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work4.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -495,14 +495,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="{{ asset('assets/./img/theme/work5.JPG')}}" alt="">
+					<img class="img-responsive" src="./img/work5.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Organize-se</span>
 						<h3>Eventos, notificações, avisos e compromissos</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="{{ asset('assets/./img/theme/work5.JPG')}}"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work5.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -510,14 +510,14 @@
 
 				<!-- Work -->
 				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="{{ asset('assets/./img/theme/work6.JPG')}}" alt="">
+					<img class="img-responsive" src="./img/work6.JPG" alt="">
 					<div class="overlay"></div>
 					<div class="work-content">
 						<span>Incidentes</span>
 						<h3>Gerencie seus incidentes</h3>
 						<div class="work-link">
 							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="{{ asset('assets/./img/theme/work6.JPG')}}"><i class="fa fa-search"></i></a>
+							<a class="lightbox" href="./img/work6.JPG"><i class="fa fa-search"></i></a>
 						</div>
 					</div>
 				</div>
@@ -630,11 +630,11 @@
 				<!-- About slider -->
 				<div class="col-md-6">
 					<div id="about-slider" class="owl-carousel owl-theme">
-					<!--	<img class="img-responsive" src="{{ asset('./assets/img/theme/about1.jpg')}}" alt=""> -->
-					<!--	<img class="img-responsive" src="{{ asset('./assets/img/theme/about2.jpg')}}" alt=""> -->
-					<!--	<img class="img-responsive" src="{{ asset('./assets/img/theme/about3.jpg')}}" alt=""> -->
-					<!--	<img class="img-responsive" src="{{ asset('./assets/img/theme/about4.jpg')}}" alt=""> -->
-						<img class="img-responsive" src="{{ asset('./assets/img/theme/teste.png')}}" alt="">
+					<!--	<img class="img-responsive" src="img/about1.jpg" alt=""> -->
+					<!--	<img class="img-responsive" src="img/about2.jpg" alt=""> -->
+					<!--	<img class="img-responsive" src="img/about3.jpg" alt=""> -->
+					<!--	<img class="img-responsive" src="img/about4.jpg" alt=""> -->
+						<img class="img-responsive" src="img/teste.png" alt="">
 					</div>
 				</div>
 				<!-- /About slider -->
@@ -653,7 +653,7 @@
 	<div id="numbers" class="section sm-padding">
 
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('{{ asset('./assets/img/theme//background2.jpg')}}');">
+		<div class="bg-img" style="background-image: url('img//background2.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -718,7 +718,7 @@
 	<div id="testimonial" class="section md-padding">
 
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('{{ asset('./assets/img/theme/background3.jpg')}}');">
+		<div class="bg-img" style="background-image: url('img/background3.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -736,7 +736,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="{{ asset('./assets/img/theme/confidencialidade.png')}}" alt="">
+								<img src="img/confidencialidade.png" alt="">
 								<h3 class="white-text">Confidencialidade</h3>
 								<span>Entenda</span>
 							</div>
@@ -747,7 +747,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="{{ asset('./assets/img/theme/Integridade.png')}}" alt="">
+								<img src="img/Integridade.png" alt="">
 								<h3 class="white-text">Integridade</h3>
 								<span>Entenda</span>
 							</div>
@@ -758,7 +758,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="{{ asset('./assets/img/theme/legalidade.png')}}" alt="">
+								<img src="img/legalidade.png" alt="">
 								<h3 class="white-text">Legaliade</h3>
 								<span>Entenda</span>
 							</div>
@@ -769,7 +769,7 @@
 						<!-- testimonial -->
 						<div class="testimonial">
 							<div class="testimonial-meta">
-								<img src="{{ asset('./assets/img/theme/disponibilidade.png')}}" alt="">
+								<img src="img/disponibilidade.png" alt="">
 								<h3 class="white-text">Disponibilidade</h3>
 								<span>Entenda</span>
 							</div>
@@ -809,7 +809,7 @@
 				<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="{{ asset('./assets/img/theme/team.jpg')}}" alt="">
+							<img class="img-responsive" src="img/team.jpg" alt="">
 							<div class="overlay">
 								<div class="team-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -827,7 +827,7 @@
 								<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="{{ asset('./assets/img/theme/team2.jpg')}}" alt="">
+							<img class="img-responsive" src="img/team2.jpg" alt="">
 							<div class="overlay">
 								<div class="team-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -845,7 +845,7 @@
 								<div class="col-sm-4">
 					<div class="team">
 						<div class="team-img">
-							<img class="img-responsive" src="{{ asset('./assets/img/theme/team3.jpg')}}" alt="">
+							<img class="img-responsive" src="img/team3.jpg" alt="">
 							<div class="overlay">
 								<div class="team-social">
 									<a href="#"><i class="fa fa-facebook"></i></a>
@@ -951,7 +951,7 @@
 
 					<!-- footer logo -->
 					<div class="footer-logo">
-						<a href="index.php"><img src="{{ asset('./assets/img/theme/logo-alt.png')}}" alt="logo"></a>
+						<a href="index.php"><img src="img/logo-alt.png" alt="logo"></a>
 					</div>
 					<!-- /footer logo -->
 
@@ -999,13 +999,13 @@
 	<!-- /Preloader -->
 
 	<!-- jQuery Plugins -->
-	<script type="text/javascript" src="{{ asset('./assets/js/jquery.min.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('./assets/js/bootstrap.min.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('./assets/js/owl.carousel.min.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('./assets/js/jquery.magnific-popup.js')}}"></script>
-	<script type="text/javascript" src="{{ asset('./assets/js/main.js')}}"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 	<script src= "https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
-	<script src= "{{ asset('assets/bootstrap-4.1.3/js/bootstrap.min.js')}}" type="text/javascript"></script>
+	<script src= "bootstrap-4.1.3/js/bootstrap.min.js" type="text/javascript"></script>
 	<script src= "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js" type="text/javascript"></script>
 	<script src= "https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" type="text/javascript"></script>
 	<script src= "https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js" type="text/javascript"></script>
@@ -1067,5 +1067,5 @@
 	});
 	</script>
 </body>
-<!--<script src="{{ asset('./assets/js/main.js')}}"></script>-->
+<!--<script src="js/main.js"></script>-->
 </html>
