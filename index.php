@@ -180,7 +180,7 @@
 	<!-- Header -->
 	<header id="home">
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('img/fundo.jpg');">
+		<div class="bg-img" style="background-image: url('img/background2.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
