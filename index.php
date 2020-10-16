@@ -57,7 +57,6 @@
 		<h5 class="modal-title" id="exampleModalLabel" style="text-align: center; vertical-align:middle !important">Solicitar avaliação gratuita</h5>		
 		</div>
 		<div class="modal-body">
-		@include('admin.includes.alerts')
 		<div class="form-group" autocomplete="off">
 			<label>Nome completo</label>
 			<input type="text" class="form-control" name="sector_name">
@@ -111,7 +110,6 @@
 		<h5 class="modal-title" id="exampleModalLabel" style="text-align: center; vertical-align:middle !important">Solicitar demonstração gratuita</h5>		
 		</div>
 		<div class="modal-body">
-		@include('admin.includes.alerts')
 		<div class="form-group" autocomplete="off">
 			<label>Nome completo</label>
 			<input type="text" class="form-control" name="sector_name">
