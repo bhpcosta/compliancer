@@ -543,14 +543,7 @@
 				</div>
 				<!-- /Section header -->
 				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>Adaptável</h3>
-						<p>Nosso sistema consegue se adaptar a qualquer ambiente de implantação.</p>
-						<a href="#">Leia mais</a>
-					</div>
-				</div>
+					<iframe src="https://threatmap.fortiguard.com/" title="Mapa de ataques ao vivo"></iframe>
 				<!-- /about -->
 			</div>
 			<!-- /Row -->
