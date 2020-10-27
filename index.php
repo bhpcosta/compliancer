@@ -861,6 +861,7 @@
 						<div class="team-content">
 							<h3>Bruno Costa</h3>
 							<span>Founder-CEO</span>
+							<img src="img/Fortinet.png" class="center" alt="">
 						</div>
 					</div>
 				</div>
