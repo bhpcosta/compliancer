@@ -531,6 +531,34 @@
 	<!-- /Portfolio -->
 
 	<!-- About -->
+	<div id="facilidades" class="section md-padding bg-dark">
+		<!-- Container -->
+		<div class="container">
+			<!-- Row -->
+			<div class="row">
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title" color ="white">Ataques ao vivo</h2>
+				</div>
+				<!-- /Section header -->
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Adaptável</h3>
+						<p>Nosso sistema consegue se adaptar a qualquer ambiente de implantação.</p>
+						<a href="#">Leia mais</a>
+					</div>
+				</div>
+				<!-- /about -->
+			</div>
+			<!-- /Row -->
+		</div>
+		<!-- /Container -->
+	</div>
+	<!-- /About -->
+
+	<!-- About -->
 	<div id="facilidades" class="section md-padding">
 
 		<!-- Container -->
