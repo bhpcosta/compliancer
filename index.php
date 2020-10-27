@@ -536,7 +536,7 @@
 		<!-- Container -->
 		<div class="container">
 			<!-- Row -->
-			<div class="row">
+			<div class="col-md-9">
 				<!-- Section header -->
 				<div class="section-header text-center">
 					<h2 class="title white-text">Mapa de ataques ao vivo</h2>
