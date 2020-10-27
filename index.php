@@ -211,6 +211,7 @@
 					<li><a href="#home">Home</a></li>
 					<li><a href="#service">Serviços</a></li>
 					<li><a href="#portfolio">Produtos</a></li>
+					<li><a href="#mapa_ataques">Mapa de ataques</a></li>				
 					<li><a href="#facilidades">Facilidades</a></li>				
 					<!--<li><a href="#pricing">Preços</a></li>-->
 					<li><a href="#team">Time</a></li>
@@ -531,14 +532,14 @@
 	<!-- /Portfolio -->
 
 	<!-- About -->
-	<div id="facilidades" class="section md-padding bg-dark">
+	<div id="mapa_ataques" class="section md-padding bg-dark">
 		<!-- Container -->
 		<div class="container">
 			<!-- Row -->
 			<div class="row">
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title" color ="white">Ataques ao vivo</h2>
+					<h2 class="title white-text">Mapa de ataques ao vivo</h2>
 				</div>
 				<!-- /Section header -->
 				<!-- about -->
