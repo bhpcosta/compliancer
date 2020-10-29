@@ -209,9 +209,9 @@
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
+					<li><a href="#mapa_ataques">Mapa de ataques</a></li>
 					<li><a href="#service">Serviços</a></li>
-					<li><a href="#portfolio">Produtos</a></li>
-					<li><a href="#mapa_ataques">Mapa de ataques</a></li>				
+					<li><a href="#portfolio">Produtos</a></li>									
 					<li><a href="#facilidades">Facilidades</a></li>				
 					<!--<li><a href="#pricing">Preços</a></li>-->
 					<li><a href="#team">Time</a></li>
@@ -331,6 +331,29 @@
 
 
 	<!-- /Header -->
+
+	<!-- About -->
+	<div id="mapa_ataques" class="section md-padding bg-dark">
+		<!-- Container -->
+		<div class="container">
+			<!-- Row -->
+			<div class="row">
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title white-text">Mapa de ataques ao vivo</h2>
+				</div>
+				<!-- /Section header -->
+				<!-- about -->
+				<!--<iframe style="border: 0;" src="https://attackmap.sonicwall.com/live-attack-map/" width="100%" height="600px" frameborder="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span></iframe> -->
+				<iframe style="border: 0;" src="https://threatmap.fortiguard.com/" width="100%" height="600px" frameborder="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span></iframe>
+				
+			<!-- /about -->
+			</div>
+			<!-- /Row -->
+		</div>
+		<!-- /Container -->
+	</div>
+	<!-- /About -->
 
 	<!-- Service -->
 	<div id="service" class="section md-padding">
@@ -530,29 +553,6 @@
 
 	</div>
 	<!-- /Portfolio -->
-
-	<!-- About -->
-	<div id="mapa_ataques" class="section md-padding bg-dark">
-		<!-- Container -->
-		<div class="container">
-			<!-- Row -->
-			<div class="row">
-				<!-- Section header -->
-				<div class="section-header text-center">
-					<h2 class="title white-text">Mapa de ataques ao vivo</h2>
-				</div>
-				<!-- /Section header -->
-				<!-- about -->
-				<!--<iframe style="border: 0;" src="https://attackmap.sonicwall.com/live-attack-map/" width="100%" height="600px" frameborder="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span></iframe> -->
-				<iframe style="border: 0;" src="https://threatmap.fortiguard.com/" width="100%" height="600px" frameborder="0" scrolling="no"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">&#65279;</span></iframe>
-				
-			<!-- /about -->
-			</div>
-			<!-- /Row -->
-		</div>
-		<!-- /Container -->
-	</div>
-	<!-- /About -->
 
 	<!-- About -->
 	<div id="facilidades" class="section md-padding">
