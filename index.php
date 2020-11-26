@@ -249,7 +249,7 @@
 		</nav>
 		<!-- /Nav -->
 
-		<!-- home wrapper -->
+		<!-- home wrapper --
 		<div class="home-wrapper">
 			<div class="container">
 				<div class="row">
@@ -318,7 +318,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- /home wrapper -->
+		!-- /home wrapper -->
 
 	</header>
 
