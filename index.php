@@ -176,7 +176,7 @@
 
 
 
-<body data-vide-bg="neural_compliancer"> <!--data-vide-bg="teste5"-->
+	<!----<body data-vide-bg="neural_compliancer"> <!--data-vide-bg="teste5"-->
 	<!-- Header -->
 	<header id="home">
 		<!-- Background Image --
@@ -249,7 +249,7 @@
 		</nav>
 		<!-- /Nav -->
 
-		<!-- home wrapper --
+		<!-- home wrapper -->
 		<div class="home-wrapper">
 			<div class="container">
 				<div class="row">
@@ -318,7 +318,7 @@
 				</div>
 			</div>
 		</div>
-		!-- /home wrapper -->
+		<!-- /home wrapper -->
 
 	</header>
 
