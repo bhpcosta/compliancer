@@ -991,7 +991,7 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2020. Todos os Direitos reservados. Designed by <a href="https://compliancerbr.herokuapp.com" target="_blank">Compliancer</a></p>
+						<p>Copyright © 2021. Todos os Direitos reservados. Designed by <a href="https://compliancerbr.herokuapp.com" target="_blank">Compliancer</a></p>
 					</div>
 					<!-- /footer copyright -->
 
