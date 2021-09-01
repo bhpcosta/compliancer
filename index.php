@@ -256,8 +256,8 @@
 					<home>
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content white-text">
-	      		<h2 class="text-center white-text">Bem vindo ao Compliancer</h2>
-	      		<br></br>
+	      		<!--- <h2 class="text-center white-text">Bem vindo ao Compliancer</h2> --->
+	      		<br></br><br></br><br></br><br></br>
 	      	<!--	<div class="row" align="center">
 	      			<div class="col-md-3" align="center">
 	      				<div class="row" align="center">
