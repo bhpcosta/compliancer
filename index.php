@@ -176,10 +176,10 @@
 
 
 
-	<!----<body data-vide-bg="neural_compliancer"> <!--data-vide-bg="teste5"-->
+	<body data-vide-bg="neural"> <!--data-vide-bg="neural"-->
 	<!-- Header -->
 	<header id="home">
-		<!-- Background Image -->
+		<!-- Background Image 
 		<div class="bg-img" style="background-image: url('img/background2.jpg');">
 			<div class="overlay"></div>
 		</div>
