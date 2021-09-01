@@ -257,7 +257,7 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content white-text">
 	      		<!--- <h2 class="text-center white-text">Bem vindo ao Compliancer</h2> --->
-	      		<br></br><br></br><br></br>
+	      		<br></br><br></br>
 	      	<!--	<div class="row" align="center">
 	      			<div class="col-md-3" align="center">
 	      				<div class="row" align="center">
@@ -303,7 +303,6 @@
 	      			</div>
 	      		</div> --->
 	      	</div>
-	      		<br></br><br></br><br></br>
 	      		
 	      		<!--- <h2 class="white-text">Está preparado?</h2> --->
 	      		<p class="white-text">A <a href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm" target="_blank">Lei nº 13.709/2018</a>, conhecida
