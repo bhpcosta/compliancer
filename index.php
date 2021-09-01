@@ -305,9 +305,9 @@
 	      	</div>
 	      		
 	      		<!--- <h2 class="white-text">Está preparado?</h2> --->
-			</br></br></br></br></br></br>
+			</br></br></br></br></br></br></br></br></br></br></br></br>
 	      		<p class="white-text">A <a href="http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm" target="_blank">Lei nº 13.709/2018</a>, conhecida
-				   como Lei Geral de Proteção de Dados (“LGPD”) aguarda sanção precidencial para entrar em vigor e traz mudanças profundas nas condições para o tratamento
+				   como Lei Geral de Proteção de Dados (“LGPD”) entrou em vigor e trouxe mudanças profundas nas condições para o tratamento
 				    de dados pessoais, o que inclui atividades como coleta, armazenamento, utilização, compartilhamento e eliminação de informações relacionadas a
 					 pessoas naturais identificadas ou identificáveis. </br></br>
 					  O Compliancer é uma plataforma nacional que oferece soluções de gerenciamento de dados, ativos, incidentes e muito mais.</br> </p>
