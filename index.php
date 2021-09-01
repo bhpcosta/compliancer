@@ -256,7 +256,7 @@
 					<home>
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content white-text">
-	      		<h2 class="text-center white-text">Este é seu prazo antes das sanções da LGPD</h2>
+	      		<h2 class="text-center white-text">A LGPD já está vigente há</h2>
 	      		<br></br>
 	      		<div class="row" align="center">
 	      			<div class="col-md-3" align="center">
