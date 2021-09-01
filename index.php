@@ -216,7 +216,7 @@
 					<!--<li><a href="#pricing">Preços</a></li>-->
 					<li><a href="#team">Time</a></li>
 					<li><a href="#contact">Contatos</a></li>
-					<li class="has-dropdown"><a>Acessar o sistema</a>
+					<!--<li class="has-dropdown"><a>Acessar o sistema</a>
 						<ul class="dropdown">
 							@if (Route::has('login'))
 				                    @auth
@@ -228,7 +228,7 @@
 				                        @endif
 				                    @endauth
 				            @endif
-						</ul>
+						</ul> --->
 					<!--
 					<div class="col-md-8"></div>
 
@@ -257,7 +257,7 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content white-text">
 	      		<!--- <h2 class="text-center white-text">Bem vindo ao Compliancer</h2> --->
-	      		<br></br><br></br></br>
+	      		<br></br><br></br></br></br>
 	      	<!--	<div class="row" align="center">
 	      			<div class="col-md-3" align="center">
 	      				<div class="row" align="center">
